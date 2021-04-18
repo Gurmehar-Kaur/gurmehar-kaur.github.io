@@ -108,7 +108,7 @@ function toggleLoading(isLoading) {
   //console.log('TODO - toggle the state of the Search button to/from Loading');
   if(isLoading)
   {
-    let button = document.querySelector("#searchButton");
+    let button = document.querySelector("#search-button");
     let span = button.querySelector("span");
     span.className = "fas fa-hourglass-half";
     
@@ -117,7 +117,7 @@ function toggleLoading(isLoading) {
   }
   else
   {
-    let button = document.querySelector("#searchButton");
+    let button = document.querySelector("#search-button");
     let span = button.querySelector("span");
     span.className = "fas fa-search";
     span.innerText = " Search";
